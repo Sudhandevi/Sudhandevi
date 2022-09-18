@@ -8,7 +8,7 @@ pipeline{
           }
             steps{
               
-              echo "hello devi"                
+              echo "hello jenkins"                
               
             }
             
