@@ -10,7 +10,7 @@ pipeline{
                           
             }   
             }
-              stage ('Build Develop'){
+              stage ('Build develop'){
           when{
             branch "develop"          
           }
