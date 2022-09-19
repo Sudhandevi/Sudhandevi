@@ -12,7 +12,7 @@ pipeline{
             }
               stage ('Build develop'){
           when{
-            branch "develop"          
+            branch "dev"          
           }
             steps{
               echo "Building Develop"               
